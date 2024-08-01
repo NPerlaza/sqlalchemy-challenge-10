@@ -16,7 +16,7 @@ from flask import Flask, jsonify
 #################################################
 # Create engine to hawaii.sqlite
 # Set "check same thread" to false due to error
-engine = create_engine("sqlite:///C:/Users/caize/Desktop/Data_Analysis/Analysis_Projects/sqlalchemy-challenge/Resources/hawaii.sqlite",
+engine = create_engine("sqlite:///C:/Users/nperlaza/Desktop/Data_Analysis/Analysis_Projects/sqlalchemy-challenge/Resources/hawaii.sqlite",
                         connect_args={'check_same_thread': False})
 
 #reflect an existing database into a new model
